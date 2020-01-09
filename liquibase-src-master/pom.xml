@@ -11,11 +11,12 @@
  
   <dependencies>
     <!-- PostgreSQL -->
-    <dependency>
-      <groupId>org.postgresql</groupId>
-      <artifactId>postgresql</artifactId>
-      <version>42.2.5</version>
-    </dependency>
+        <dependency>
+	    <groupId>com.microsoft.sqlserver</groupId>
+	    <artifactId>mssql-jdbc</artifactId>
+	    <version>6.1.0.jre8</version>
+	    <scope>test</scope>
+	</dependency>
 
     <!-- Liquibase -->
     <dependency>
